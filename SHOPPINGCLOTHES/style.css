@@ -1,0 +1,124 @@
+/**
+* ! chnging default styles of the browser
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+/**
+* ! Navbar Styles are here
+**/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #212529;
+    color: white;
+    padding: 25px 60px;
+    margin-bottom: 30PX;
+}
+
+.cart {
+    position: relative;
+    background-color: #fff;
+    color: #212529;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+.cartA {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/**
+* ! Shop items styles are here
+**/
+
+.shopI {
+    display: grid;
+    grid-template-columns: repeat(4,223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+   .shopI {
+   grid-template-columns: repeat(2,223px);
+   }
+}
+
+@media (max-width: 500px) {
+   .shopI {
+   grid-template-columns: repeat(1,223px);
+   }
+}
+
+
+.items {
+    border: 2px solid #212529;
+    border-radius: 4px;
+    background-color: blue;
+    color: #fff;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.buttonI {
+   display: flex;
+   flex-direction: row;
+   font-size: 16px;
+   width: 100%;
+   background-color: burlywood;
+   justify-content: center;
+}
+
+img {
+    height: 200px;
+    height: 250px;
+}
+
+.cart-items {
+border: solid 1px black;    
+display: flex;
+flex-direction: column;  
+width: 400px;  
+gap: 20px;
+}
+
+.btnB {
+margin-top: 50PX;    
+display: flex;
+flex-direction: column;  
+width: 400px;  
+gap: 20px;
+}
+
+
+
+
+
+     
